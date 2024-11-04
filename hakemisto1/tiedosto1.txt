@@ -1,1 +1,2 @@
 moi
+Uusi rivi hakemisto1/tiedosto1.txt
