@@ -18,7 +18,7 @@ jobs:
           python-version: "3.10"
       - name: Install Poetry
         run: pip install poetry
-      - name: Install dependenciesgg
-        run: poetry installgg
-      - name: Run testsgg
-        run: poetry run coverage run --branch -m pytestgg
+      - name: Install dependencies
+        run: poetry install
+      - name: Run tests
+        run: poetry run coverage run --branch -m pytest
